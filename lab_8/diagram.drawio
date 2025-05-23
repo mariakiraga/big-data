@@ -1,0 +1,113 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36" version="26.2.8">
+  <diagram name="Page-1" id="-RMlpEeK3I2LqqBb3BBs">
+    <mxGraphModel dx="2084" dy="1001" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="-6wZJWJ-qtORFWRs1dck-1" value="&lt;h3 class=&quot;&quot; data-end=&quot;1772&quot; data-start=&quot;1754&quot;&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;Dane surowe:&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-size: 12px; font-weight: normal;&quot;&gt;IoT Devices → IoT Hub → Stream Analytics → Data Lake Storage&lt;/span&gt;&lt;/h3&gt;&lt;br/&gt;&lt;h3 class=&quot;&quot; data-end=&quot;1864&quot; data-start=&quot;1832&quot;&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;Przetwarzanie i predykcja:&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-size: 12px; font-weight: normal;&quot;&gt;&amp;nbsp;Storage → Azure ML (training) → AKS;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-size: 12px; font-weight: normal;&quot;&gt;Stream Analytics&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-size: 12px; font-weight: normal;&quot;&gt;&amp;nbsp;→ Azure Function → AKS (inference)&lt;/span&gt;&lt;/h3&gt;&lt;br/&gt;&lt;h3 class=&quot;&quot; data-end=&quot;1990&quot; data-start=&quot;1958&quot;&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;Wizualizacja i monitoring:&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-size: 12px; font-weight: normal;&quot;&gt;Azure Function → SQL → Power BI;&amp;nbsp; &amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-size: 12px; font-weight: normal;&quot;&gt;Azure Function → Azure Monitor&lt;/span&gt;&lt;/h3&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="145" y="80" width="560" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="-6wZJWJ-qtORFWRs1dck-13" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;exitX=1.026;exitY=0.519;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="-6wZJWJ-qtORFWRs1dck-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="116" y="380.5" as="sourcePoint" />
+            <mxPoint x="184" y="380.5" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="158" y="380.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-6wZJWJ-qtORFWRs1dck-2" value="" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#7AA116;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.iot_thing_freertos_device;" vertex="1" parent="1">
+          <mxGeometry x="16" y="340" width="78" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="-6wZJWJ-qtORFWRs1dck-3" value="IoT device" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="5" y="417" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-6wZJWJ-qtORFWRs1dck-4" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/iot/IoT_Hub.svg;" vertex="1" parent="1">
+          <mxGeometry x="196" y="347" width="64" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="-6wZJWJ-qtORFWRs1dck-5" value="Azure IoT Hub" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="163" y="411" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-6wZJWJ-qtORFWRs1dck-6" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/analytics/Stream_Analytics_Jobs.svg;" vertex="1" parent="1">
+          <mxGeometry x="377" y="347" width="68" height="57.99999999999999" as="geometry" />
+        </mxCell>
+        <mxCell id="-6wZJWJ-qtORFWRs1dck-20" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;exitX=0.481;exitY=1.1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="-6wZJWJ-qtORFWRs1dck-29">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="590.3721757322178" y="730" as="targetPoint" />
+            <mxPoint x="906.0039849624061" y="655" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-6wZJWJ-qtORFWRs1dck-7" value="Azure Stream&amp;nbsp;&lt;div&gt;Analytics&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="346" y="412" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="-6wZJWJ-qtORFWRs1dck-8" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/storage/Data_Lake_Storage_Gen1.svg;" vertex="1" parent="1">
+          <mxGeometry x="560.5" y="347" width="64" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="-6wZJWJ-qtORFWRs1dck-9" value="Azure Data&lt;div&gt;Lake Storage&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="532.5" y="399" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="-6wZJWJ-qtORFWRs1dck-10" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/analytics/Power_BI_Embedded.svg;" vertex="1" parent="1">
+          <mxGeometry x="773.5" y="733" width="51" height="68" as="geometry" />
+        </mxCell>
+        <mxCell id="-6wZJWJ-qtORFWRs1dck-11" value="PowerBI" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="761" y="801" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-6wZJWJ-qtORFWRs1dck-14" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.029;entryY=0.552;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="-6wZJWJ-qtORFWRs1dck-4" target="-6wZJWJ-qtORFWRs1dck-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-6wZJWJ-qtORFWRs1dck-15" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.07;entryY=0.577;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="-6wZJWJ-qtORFWRs1dck-6" target="-6wZJWJ-qtORFWRs1dck-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-6wZJWJ-qtORFWRs1dck-16" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/ai_machine_learning/Machine_Learning.svg;" vertex="1" parent="1">
+          <mxGeometry x="769" y="347" width="64" height="68" as="geometry" />
+        </mxCell>
+        <mxCell id="-6wZJWJ-qtORFWRs1dck-32" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="-6wZJWJ-qtORFWRs1dck-17" target="-6wZJWJ-qtORFWRs1dck-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-6wZJWJ-qtORFWRs1dck-17" value="Azure ML" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="756" y="417" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-6wZJWJ-qtORFWRs1dck-19" value="Azure SQL" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="542.5" y="795" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-6wZJWJ-qtORFWRs1dck-22" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.031;entryY=0.412;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="-6wZJWJ-qtORFWRs1dck-8" target="-6wZJWJ-qtORFWRs1dck-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-6wZJWJ-qtORFWRs1dck-26" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/compute/Kubernetes_Services.svg;" vertex="1" parent="1">
+          <mxGeometry x="767" y="550" width="68" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-6wZJWJ-qtORFWRs1dck-27" value="AKS" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="769" y="620" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-6wZJWJ-qtORFWRs1dck-36" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="-6wZJWJ-qtORFWRs1dck-28" target="-6wZJWJ-qtORFWRs1dck-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-6wZJWJ-qtORFWRs1dck-28" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/compute/Function_Apps.svg;" vertex="1" parent="1">
+          <mxGeometry x="558.5" y="550" width="68" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-6wZJWJ-qtORFWRs1dck-29" value="Azure Function" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="527.5" y="610" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-6wZJWJ-qtORFWRs1dck-30" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.522;entryY=-0.017;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="-6wZJWJ-qtORFWRs1dck-9" target="-6wZJWJ-qtORFWRs1dck-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-6wZJWJ-qtORFWRs1dck-33" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="-6wZJWJ-qtORFWRs1dck-28">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="756" y="580" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-6wZJWJ-qtORFWRs1dck-34" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.069;entryY=0.441;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" target="-6wZJWJ-qtORFWRs1dck-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="622.5" y="762.5870064240783" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-6wZJWJ-qtORFWRs1dck-35" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/management_governance/Monitor.svg;" vertex="1" parent="1">
+          <mxGeometry x="377" y="548" width="64" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="-6wZJWJ-qtORFWRs1dck-37" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/databases/SQL_Database.svg;" vertex="1" parent="1">
+          <mxGeometry x="568.5" y="731" width="48" height="64" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
